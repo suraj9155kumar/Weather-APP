@@ -23,15 +23,16 @@ html, body, #root {
 
 /* ❌ Removed flex centering from body */
 body {
+  margin: 0;
   min-width: 320px;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /* ✅ Optional: center your app nicely */
 #root {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  min-height: 100vh;
 }
 
 /* Links */
