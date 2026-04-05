@@ -5,7 +5,6 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -27,6 +26,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   overflow-x: hidden;
+
+  /* ✅ Apply gradient to FULL PAGE */
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
 }
 
 /* ✅ Optional: center your app nicely */
